@@ -1,0 +1,107 @@
+&%% start of file `template.tex'.
+%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[12pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\usepackage[utf8]{inputenc}  
+\moderncvtheme[blue]{classic}     
+\nopagenumbers{}                             
+\AtBeginDocument{\recomputelengths}
+%\usepackage[french]{babel} 
+
+
+%\renewcommand{\listitemsymbol}{-~}  % change the symbol for lists
+% color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+
+% adjust the page margins
+\usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
+% Largeur de la colonne pour les dates
+\setlength{\hintscolumnwidth}{2.9cm}
+
+\setlength{\makecvtitlenamewidth}{9cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\firstname{Martin}
+\familyname{ACCOU}
+\title{Etudiant Ingénieur ISAE-SUPAERO}                        
+\address{18 rue de Saint-Omer}{62570 Wizernes}   
+\mobile{+33 7 51 63 51 88}                   
+\email{martin.accou@student.isae-supaero.fr} 
+\extrainfo{22 ans - Permis B}
+\usepackage{marvosym}
+
+\usepackage{fontawesome}
+
+\faLinkedinSquare {linkedin.com/in/martin-accou}
+
+\photo[64pt][0pt]{martin.jpg}                  % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+\AfterPreamble{\hypersetup{
+  pdfauthor={Martin ACCOU},
+  pdftitle={CV_ACCOU_Martin},
+  urlcolor=blue,
+}}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Formation}
+\cventry{2020-2024}{Diplôme d’ingénieur}{\href{https://www.isae-supaero.fr/fr/}{ISAE-SUPAERO}}{Toulouse}{}{
+\begin{itemize}
+    \item $1^ère$ et $2^ème$ année : formation d'ingénieur généraliste en mécanique, thermodynamique des fluides, mathématiques appliquées, physique, signaux et systèmes, informatique, écomomie et gestion.
+    \item $3^ème$ année : Spécialité sciences des données et décision.
+ \end{itemize}}  % arguments 3 to 6 can be left empty
+\cventry{2022}{Semestre Erasmus+}{\href{https://www.polimi.it/en?lang=IT&polij_device_category=PERSONAL_COMPUTER&cHash=431f680ecdc738e1a1afb7f705f79310}{Politecnico di Milano}}{Milan}{Italie}{\begin{itemize}
+    \item Cours: applications hypermédia, astrophysique, aéroacoustique, dynamique des solides, combustion des systèmes thermochimiques.
+\end{itemize}}
+\cventry{2018-2020}{Classe préparatoire aux grandes écoles}{\href{https://www.bginette.com}{Lycée Sainte-Geneviève}}{Versailles}{}{\begin{itemize}
+    \item MPSI/MP: mathématiques, sciences physiques, sciences de l’ingénieur.
+\end{itemize}}
+    \cventry{2018}{Baccalauréat scientifique}{\href{https://lamalassise.com}{Lycée La Malassise}}{Longuenesse}{}{\begin{itemize}
+        \item Série S (SVT), option mathématiques, mention très bien.
+    \end{itemize}}
+
+\section{Expériences professionnelles}
+\cventry{2023, 6 mois}{Stage en science des données}{\href{https://reuniwatt.com/en/}{Reuniwatt}}{Saint-Pierre}{France}{\begin{itemize}
+    \item R&D en post-traitement des prévisions d'irradiance day-ahead: comparaison de modèles efficaces sur les séries temporelles (filtre de Kalman, GBM, RF, SVR, MLP, N-BEATS).
+    \item Introduction aux problématiques de production et de mise en production des modèles de machine learning (MLOPs).
+    \end{itemize}}
+\cventry{2022, 6 mois}{Stage en simulation numérique}{\href{https://fr.wikipedia.org/wiki/DGA_Techniques_aéronautiques}{DGA Techniques aéronautiques}}{Balma}{}{\begin{itemize}
+    \item Découverte des spécificités de la simulation numérique par la pratique sur LS-DYNA.
+    \item Etude d'un parachute extracteur lors d'un largage par gravité.
+\end{itemize}}
+\cventry{2021, 2 mois}{Technicien en maintenance aéronautique}{\href{https://www.defense.gouv.fr/terre/notre-organisation/commandant-laviation-legere-larme-terre/9e-regiment-soutien-aeromobile}{$9^ème$ régiment de soutien aéromobile de l'armée de Terre}}{Montauban}{}{\begin{itemize}
+    \item Découverte de la maintenance aéronautique et de l'environnement de la Défense.
+    \item Travail sur des hélicoptères de l'Armée de Terre (EC665 Tigre et AS532 Cougar).
+    \item Initiation aux règles de sécurité et à la certification aéronautique.
+\end{itemize}}
+\cventry{2019 et 2020}{Emplois saisonniers}{\href{https://ch-saintomer.fr}{Centre hospitalier région de Saint-Omer}}{}{Helfaut}{\begin{itemize}
+    \item Travail dans la restauration: plonge et élaboration des plateaux repas.
+    \item Brancardage des patients au sein de l'hôpital.
+\end{itemize}}
+
+\section{Compétences}
+
+\cvitem{Langages}{C, C++, Java, Python, MATLAB, HTML/CSS, JavaScript, Nuxt.js, \LaTeX.}
+\cvitem{Logiciels}{Office, CATIA, Patran, Nastran, Adams, LS-DYNA, MBDyn, SU2.}
+\cvitem{Langues}{Anglais (C1, TOEFL iBT : 102/120), Espagnol (B1), Italien (A2), Arabe (A1).}
+\cvitem{Savoir-être}{Autonome, rigoureux, curieux, entreprenant.}
+
+\section{Centres d'intérêt}
+
+\cvitem{Loisirs}{Géopolitique, aéronautique (BIA), aérospatiale.}
+\cvitem{Sports}{Trail (ultra-marathon), cyclisme, football (10 ans de pratique en club), tennis (15/4).}
+
+\cvitem{Associatif}{
+Créateur des parcours et chef de course de deux éditions du RAID.
+Le RAID ISAE est un événement incluant vtt, trail et canoë et rassemblant plus de 500 sportifs.
+}
+               
+\end{document}
+
