@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1694959364 "/Users/accoumar/Desktop/cv_ACCOU_Martin/ACCOU_Martin_CV.tex" "/Users/accoumar/Desktop/cv_ACCOU_Martin/ACCOU_Martin_CV.pdf" "ACCOU_Martin_CV" 1694959364
-  "/Users/accoumar/Desktop/cv_ACCOU_Martin/ACCOU_Martin_CV.aux" 1694959364 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/accoumar/Desktop/cv_ACCOU_Martin/ACCOU_Martin_CV.tex" 1694959362 6548 0670d2f0d4e9862646f5cb71f36cd129 ""
-  "/dev/null" 1694959316 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1694959613 "/Users/accoumar/Desktop/cv_ACCOU_Martin/ACCOU_Martin_CV.tex" "/Users/accoumar/Desktop/cv_ACCOU_Martin/ACCOU_Martin_CV.pdf" "ACCOU_Martin_CV" 1694959613
+  "/Users/accoumar/Desktop/cv_ACCOU_Martin/ACCOU_Martin_CV.aux" 1694959613 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/accoumar/Desktop/cv_ACCOU_Martin/ACCOU_Martin_CV.tex" 1694959611 6575 67f079c6299d6ea2e6e1df051737262e ""
+  "/dev/null" 1694959614 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
@@ -37,6 +37,7 @@
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/marvosym/umvs.tfm" 1313968873 1772 135d23849cb646acc6bb1ae8d73e3f78 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1215737283 136101 f533469f523533d38317ab5729d00c8a ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb" 1463430686 173219 54847ac27638e1e28852258f5be2fa20 ""
+  "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb" 1254269338 30696 2654571912f9cd384da9f7cb8a60c568 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb" 1254269338 30635 833ec815d446ec453a4913fc26d24cbc ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr10.pfb" 1255129361 119235 f35b44530a1d90eb90fe15d9cba67ea0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb" 1255129361 113634 f99c44d58bae0863375faf0e1d74d612 ""
@@ -179,7 +180,7 @@
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
   "ACCOU_Martin_CV.aux" 0 -1 0 "pdflatex"
   "ACCOU_Martin_CV.out" 0 -1 0 "pdflatex"
-  "ACCOU_Martin_CV.tex" 1694959362 6548 0670d2f0d4e9862646f5cb71f36cd129 ""
+  "ACCOU_Martin_CV.tex" 1694959611 6575 67f079c6299d6ea2e6e1df051737262e ""
   "martin.jpg" 1694847070 135579 8c3212d4f0c1a7a5a18e6a5a0c41490a ""
   "moderncv.cls" 1694847070 26680 d1e01c6f2455f8d18a24e25a39f4bbde ""
   "moderncvcollection.sty" 1694847070 3390 e9e5790da3d67f5a6079064195fb7ad0 ""
@@ -190,8 +191,8 @@
   "tweaklist.sty" 1694847070 1966 8ce3a021c0bc6369db88faeddf828d71 ""
   (generated)
   "ACCOU_Martin_CV.out"
-  "ACCOU_Martin_CV.aux"
-  "ACCOU_Martin_CV.log"
   "/Users/accoumar/Desktop/cv_ACCOU_Martin/ACCOU_Martin_CV.pdf"
+  "ACCOU_Martin_CV.log"
   "/Users/accoumar/Desktop/cv_ACCOU_Martin/ACCOU_Martin_CV.log"
+  "ACCOU_Martin_CV.aux"
   "ACCOU_Martin_CV.pdf"
